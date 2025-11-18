@@ -1,0 +1,94 @@
+/* index.css */
+
+/* General */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f6f2;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #4e342e; /* Dark Coffee */
+  overflow: hidden;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar img.logo {
+  height: 45px;
+}
+
+.navbar a {
+  color: #f3e5ab;
+  text-decoration: none;
+  padding: 10px 16px;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #6d4c41; /* Lighter coffee */
+  color: white;
+  border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('images/index.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff3e0;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero a {
+  background-color: #6d4c41;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.hero a:hover {
+  background-color: #4e342e;
+}
+
+/* Footer */
+footer {
+  background-color: #4e342e;
+  color: #f3e5ab;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #f3e5ab;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: white;
+}

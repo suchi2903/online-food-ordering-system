@@ -1,0 +1,136 @@
+/* style.css - Coffee Brown Theme */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e6;
+    padding: 30px;
+    color: #4b2e2e;
+}
+
+h1 {
+    color: #3e2723;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff8f0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #d2b48c;
+    text-align: center;
+}
+
+th {
+    background-color: #e0c7b2;
+}
+
+.remove-btn, .checkout-btn {
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.remove-btn:hover, .checkout-btn:hover {
+    background-color: #b35900;
+}
+
+.checkout-btn {
+    background-color: #6d4c41;
+}
+
+.checkout-btn:hover {
+    background-color: #5d4037;
+}
+
+.total {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.back {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #4b2e2e;
+    text-decoration: none;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+  
+
+/* style.css - checkout */
+/* Container for delivery location fields - 2 per row */
+.location-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.location-field {
+    flex: 1 1 48%; /* roughly half width */
+    min-width: 200px; /* minimum so they don’t shrink too small */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.location-box {
+    background: #fff8f0;
+    border: 1px solid #d2b48c;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Total row alignment */
+.total-row td:first-child {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 10px;
+    background-color: #e0c7b2;
+}
+
+.total-row td:last-child {
+    font-weight: bold;
+    background-color: #e0c7b2;
+}
+
+/* cart page*/
+.cart-navigation {
+    max-width: 700px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+.cart-navigation a {
+    background-color: #6d4c41;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.cart-navigation a:hover {
+    background-color: #5d4037;
+}
+
+
