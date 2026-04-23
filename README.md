@@ -1,4 +1,5 @@
-<img width="948" height="531" alt="image" src="https://github.com/user-attachments/assets/fe0a99fd-662b-40d3-ab27-e6d5200c87d0" /># YummiYo - Online Food Ordering System
+<img width="941" height="535" alt="home" src="https://github.com/user-attachments/assets/0b3e1865-059d-494c-8d88-233da39f825b" />
+># YummiYo - Online Food Ordering System
 
 ## Description
 YummiYo is a web-based food ordering system developed using PHP and MySQL.  
