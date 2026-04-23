@@ -113,7 +113,7 @@ yummiyo/
 ## Author
 **Suchithra V**  
 - GitHub: https://github.com/suchi290  
-- LinkedIn: linkedin.com/in/suchithra-v-374881346
+- LinkedIn: https://linkedin.com/in/suchithra-v-374881346
 
 ## Future Improvements
 - Online Payment Integration
