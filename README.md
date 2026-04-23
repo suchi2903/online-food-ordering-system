@@ -5,4 +5,4 @@
 3. Start Apache and MySQL
 4. Import database.sql into phpMyAdmin
 5. Open browser and go to:
-   http://localhost/food-delivery-system
+   http://localhost/online-food-ordering-system
